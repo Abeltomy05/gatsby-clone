@@ -12,6 +12,7 @@
 <body>
         <!-- Top Bar -->
         <div class="top-bar">
+          <div class="container">
           <div class="left">
            <span class="badge">MIGRATE TO NETLIFY TODAY</span>
            <p>
@@ -24,10 +25,12 @@
             <a href="#" >Support</a>
             <a href="#" >Log In</a>
            </div>
+          </div>
         </div>
 
         <!-- Navbar -->
         <header class="main-header">
+          <div class="container">
           <div class="left">
             <div class="logo">
                 <img src="./assets/Gatsby_Logo.png" alt="logo">
@@ -35,14 +38,105 @@
             </div>
 
             <nav>
-                <a href="#">Open Source <span><i class="bi bi-caret-down-fill"></i></span></a>
-                <a href="#">Learn <span><i class="bi bi-caret-down-fill"></i></span></a>
+                <div class="nav-item">
+                    <a href="#">Open Source <span><i class="bi bi-caret-down-fill"></i></span></a>
+
+                    <div class="dropdown open-source-dropdown">
+                        <div class="os-item">
+                            <div class="os-icon"><i class="bi bi-journal"></i></div>
+                            <div>
+                                <h4>Documentation ›</h4>
+                                <p>Start building with the Gatsby ecosystem</p>
+
+                                <div class="os-links">
+                                    <a href="#">How-To Guides ›</a>
+                                    <a href="#">Reference Guides ›</a>
+                                    <a href="#">Concepts ›</a>
+                                    <a href="#">Quick Start ›</a>
+                                    <a href="#">Tutorials ›</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="os-item">
+                            <div class="os-icon"><i class="bi bi-tools"></i></div>
+                            <div>
+                                <h4>Gatsby Plugins ›</h4>
+                                <p>Customize and add functionality with industry-leading tools</p>
+
+                                <div class="os-links">
+                                    <a href="#">WordPress ›</a>
+                                    <a href="#">Contentful ›</a>
+                                    <a href="#">Shopify ›</a>
+                                    <a href="#">Algolia ›</a>
+                                    <a href="#">Google Analytics ›</a>
+                                    <a href="#">Segment ›</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="os-item">
+                            <div class="os-icon"><i class="bi bi-layers"></i></div>
+                            <div>
+                                <h4>Starters ›</h4>
+                                <p>Get up and running with free, optimized templates</p>
+                            </div>
+                        </div>
+
+                        <div class="os-item">
+                            <div class="os-icon"><i class="bi bi-palette"></i></div>
+                            <div>
+                                <h4>Themes ›</h4>
+                                <p>Gain centralized control over web projects</p>
+                            </div>
+                        </div>
+
+                        <div class="os-item">
+                            <div class="os-icon"><i class="bi bi-plug"></i></div>
+                            <div>
+                                <h4>Contributing ›</h4>
+                                <p>Leave your legacy on the Gatsby project</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nav-item">
+                    <a href="#">Learn <span><i class="bi bi-caret-down-fill"></i></span></a>
+
+                    <div class="dropdown learn-dropdown">
+                        <div class="learn-item">
+                            <div class="icon-box"><i class="bi bi-award"></i></div>
+                            <div>
+                                <h4>Gatsby Hall of Fame ›</h4>
+                                <p>Check out what the community is building</p>
+                            </div>
+                        </div>
+
+                        <div class="learn-item">
+                            <div class="icon-box"><i class="bi bi-mortarboard"></i></div>
+                            <div>
+                                <h4>Webinars ›</h4>
+                                <p>Learn more with live or on-demand webinars</p>
+                            </div>
+                        </div>
+
+                        <div class="learn-item">
+                            <div class="icon-box"><i class="bi bi-pen"></i></div>
+                            <div>
+                                <h4>Blog ›</h4>
+                                <p>Read the latest musings from Gatsby</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </nav>
           </div>
 
           <div class="right">
             <button class="contact-btn">Contact</button>
             <button class="signup-btn">Sign Up</button>
+          </div>
           </div>
         </header>
 
