@@ -114,8 +114,7 @@ nav a {
     justify-content: space-between;
     padding: 80px 120px;
     gap: 40px;
-    margin-bottom: 50px;
-    border-bottom: 1px solid #151515;
+    margin-bottom: 120px;
 }
 
 .hero .left{
@@ -171,3 +170,73 @@ nav a {
     width: 600px;
     max-width: 100%;
 }
+
+/* -----------------------Details Section---------------------- */
+
+.details {
+    background-color: #11081f;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.details .top h3 {
+    font-size: 42px;
+    color: #ffffff;
+}
+
+.details .top span {
+    color: #a456f0;
+}
+
+.sub-details {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #d3cde8;
+    text-align: center;
+}
+
+.card img {
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+.card h4 {
+    font-size: 24px;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.card p strong{
+    color: #a456f0;
+}
+
+.card a {
+    margin-top: 10px;
+    color: #a456f0;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
