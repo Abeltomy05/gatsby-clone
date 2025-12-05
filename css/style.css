@@ -106,3 +106,68 @@ nav a {
 }
 
 
+
+/* -----------------------Hero Section---------------------- */
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 120px;
+    gap: 40px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #151515;
+}
+
+.hero .left{
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.hero .left h3 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #151515;
+    line-height: 1.1;
+    margin: 0; 
+}
+
+.hero .left p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin: 0; 
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 0; 
+    margin-top: 15px;
+}
+
+.learn-more-btn {
+    padding: 14px 20px;
+    background: #6a1b9a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btns a {
+    color: #6a1b9a;
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.hero .right img {
+    width: 600px;
+    max-width: 100%;
+}
