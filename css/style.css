@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #555555;
+}
+
+
+/*  ---------------TOP BAR---------------  */
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 80px;
+  border-bottom: 1px solid #eee;
+  font-size: 12px;
+}
+
+.top-bar .left .badge {
+  background: #ebe5f4;
+  color: #7657a5;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.top-bar .left a {
+  color: #5a2ca0;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.top-bar .right a{
+    color: #555555;
+    text-decoration: none;
+}
+
+/* -----------------------Main Navbar---------------------- */
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 80px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo img {
+  width: 25px;
+}
+
+.logo span {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #1b1a1a;
+}
+
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #555555;
+  font-size: 13px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+}
+
+.contact-btn {
+  padding: 6px 16px;
+  border: 1px solid #5a2ca0;
+  color: #5a2ca0;
+  background: transparent;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.signup-btn {
+  padding: 8px 20px;
+  color: white;
+  background: #5a2ca0;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+
