@@ -3,6 +3,7 @@ body {
   font-family: Arial, sans-serif;
   color: #555555;
   padding-top: 140px;
+  overflow-x: hidden;
 }
 
 /* ---------------TOP BAR--------------- */
@@ -81,6 +82,7 @@ body {
 
 .menu-icon:hover{
     background-color: #f1eff7;
+    color: #5a2ca0;
 }
 
 .menu-icon i{
@@ -143,6 +145,86 @@ nav a {
   font-size: 14px;
 }
 
+/* -----------------------Hero Section---------------------- */
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    z-index: 4000;
+    padding: 0 20px;
+    display: none;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.mobile-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 10px;
+}
+
+.mobile-top .btns{
+  gap: 20px;
+}
+
+.mobile-top .login-link {
+    color: #5a2ca0;
+    font-weight: 500;
+    margin-left: auto;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.close-menu {
+    font-size: 26px;
+    cursor: pointer;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+.mobile-section h4 {
+    color: #555;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.mobile-section a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 5px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.mobile-section a i {
+    background: #f5eefc;
+    padding: 8px;
+    border-radius: 6px;
+    color: #7b39c6;
+    font-size: 20px;
+}
+
+.mobile-footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #e7e7e7;
+}
+
+.mobile-footer a {
+    color: #5a2ca0;
+    font-size: 13px;
+    text-decoration: none;
+}
 /* -----------------------Hero Section---------------------- */
 .hero{
     display: flex;
@@ -668,4 +750,17 @@ footer .right-links a {
     flex-direction: column;
     align-items: center;
   }
+
+  .main-header .right .contact-btn{
+   display: none;
+  }
+
+    .main-header .right .signup-btn{
+     display: none;
+  }
+
+  footer{
+    padding: 100px 20px 40px;
+  }
+
 }

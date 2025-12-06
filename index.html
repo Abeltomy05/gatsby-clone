@@ -159,6 +159,41 @@
             </div>
         </section>
 
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+            <div class="mobile-top">
+                <div class="btns">
+                  <button class="signup-btn">Sign Up</button>
+                  <button class="contact-btn">Contact</button>
+                  <a href="#" class="login-link">Login</a>
+                </div>
+
+                <div class="close-menu">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+            </div>
+            
+            <div class="mobile-section">
+                <h4>OPEN SOURCE</h4>
+                <a href="#"><i class="bi bi-journal"></i> Documentation</a>
+                <a href="#"><i class="bi bi-tools"></i> Gatsby Plugins</a>
+                <a href="#"><i class="bi bi-layers"></i> Starters</a>
+                <a href="#"><i class="bi bi-palette"></i> Themes</a>
+                <a href="#"><i class="bi bi-sliders"></i> Contributing</a>
+            </div>
+
+            <div class="mobile-section">
+                <h4>LEARN</h4>
+                <a href="#"><i class="bi bi-award"></i> Gatsby Hall of Fame</a>
+                <a href="#"><i class="bi bi-mortarboard"></i> Webinars</a>
+                <a href="#"><i class="bi bi-pen"></i> Blog</a>
+            </div>
+
+            <div class="mobile-footer">
+                <a href="#">Support</a>
+            </div>
+        </div>
+
         <!-- Details-Section -->
          <section class="details">
             <div class="top">
@@ -292,5 +327,18 @@
         </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script>
+        const menuIcon = document.querySelector(".menu-icon");
+        const mobileMenu = document.querySelector(".mobile-menu");
+        const closeMenu = document.querySelector(".close-menu");
+
+        menuIcon.addEventListener("click", () => {
+            mobileMenu.style.display = "flex";
+        });
+
+        closeMenu.addEventListener("click", () => {
+            mobileMenu.style.display = "none";
+        });
+    </script>
 </body>
 </html>
