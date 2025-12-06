@@ -679,6 +679,98 @@ footer .right-links a {
 
 /* --------------------------Responsiveness ---------------------- */
 
+@media (max-width: 785px) {
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .left {
+        gap: 15px;
+    }
+
+     .menu-icon {
+        margin-left: 0; 
+    }
+
+    .top-bar .left .badge{
+        font-size: 10px;
+    }
+
+    .top-bar .left p{
+        font-size: 10px;
+    }
+
+    /* ----------Hero Section-------- */
+
+    .hero {
+        padding: 20px 10px;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+     .hero .left {
+        max-width: 100%;
+        align-items: center;
+    }
+
+    .hero .left h3 {
+        font-size: 32px;
+    }
+
+    .hero .left p {
+        font-size: 15px;
+    }
+
+    .hero .right img {
+        width: 300px;
+        max-width: 100%;
+    }
+
+    /* ----------Details Section-------- */
+
+    .details {
+        padding: 60px 20px;
+    }
+
+    .details h3 {
+        font-size: 28px;
+    }
+
+    .sub-details {
+        flex-direction: column;
+        gap: 40px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .card {
+        width: 100%;         
+        max-width: 350px;     
+        margin: 0 auto;
+    }
+
+    /* ----------Details bottom-------- */
+
+    .details .bottom h3 {
+        font-size: 28px;
+    }
+
+    .details .bottom .btns {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* ----------Footer-------- */
+
+    
+}
+
 @media (max-width: 900px) {
     .container {
         padding: 0 20px;
@@ -704,6 +796,14 @@ footer .right-links a {
 
     nav {
         display: none; 
+    }
+
+    .main-header .right .contact-btn{
+    display: none;
+    }
+
+    .main-header .right .signup-btn{
+        display: none;
     }
 }
 
@@ -749,14 +849,6 @@ footer .right-links a {
   .details .sub-details{
     flex-direction: column;
     align-items: center;
-  }
-
-  .main-header .right .contact-btn{
-   display: none;
-  }
-
-    .main-header .right .signup-btn{
-     display: none;
   }
 
   footer{
