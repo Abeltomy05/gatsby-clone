@@ -697,12 +697,22 @@ footer .right-links a {
         margin-left: 0; 
     }
 
-    .top-bar .left .badge{
-        font-size: 10px;
+    .top-bar {
+        overflow-x: auto;
+        white-space: nowrap;
+        -ms-overflow-style: none; 
+        scrollbar-width: none;  
     }
 
-    .top-bar .left p{
-        font-size: 10px;
+     .top-bar::-webkit-scrollbar {
+        display: none;   
+    }
+
+    .top-bar .container {
+        width: max-content; 
+        display: flex;
+        align-items: center;
+        gap: 15px;
     }
 
     /* ----------Hero Section-------- */
