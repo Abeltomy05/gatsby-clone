@@ -14,7 +14,7 @@ A fully responsive clone of the Gatsby website homepage, built using HTML, CSS, 
 **Setup & Usage**
 Clone the repository:
 ```bash
-git clone
+git clone https://github.com/Abeltomy05/gatsby-clone.git
 ```
 Navigate into the project:
 ```bash
